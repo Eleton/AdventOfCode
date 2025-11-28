@@ -29,7 +29,9 @@ case $LANGUAGE in
     echo "Does $DIR/src/main.rs exist?"
     if [ -e "$DIR" ]; then
       read -p "$DIR already exists. Overwrite? Y/n" DECISION
-      if [[ "$DECISION" =~ ^([nN][oO]|[nN])$ ]] ;;
+      if [[ "$DECISION" =~ ^([nN][oO]|[nN])$ ]]; then
+        echo "Aborting."
+        exit 0
       fi
     fi
     echo "Generating Rust-project in $PRE_DIR and renaming to $DIR"
