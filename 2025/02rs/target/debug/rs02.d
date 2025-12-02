@@ -1,0 +1,1 @@
+/Users/aimanjosefsson/code/aoc/2025/02rs/target/debug/rs02: /Users/aimanjosefsson/code/aoc/2025/02rs/src/alpha.rs /Users/aimanjosefsson/code/aoc/2025/02rs/src/beta.rs /Users/aimanjosefsson/code/aoc/2025/02rs/src/main.rs
